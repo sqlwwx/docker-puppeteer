@@ -1,0 +1,14 @@
+{
+  "name": "docker-puppeteer",
+  "version": "0.0.1",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sqlwwx/docker-puppeteer.git"
+  },
+  "author": "sqlwwx <wwx@wuweixing.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "standard-version": "^7.1.0"
+  }
+}
