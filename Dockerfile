@@ -8,7 +8,7 @@ RUN echo @edge https://mirrors.aliyun.com/alpine/edge/main >> /etc/apk/repositor
     apk update && \
     apk upgrade --no-cache && \
     apk add --no-cache \
-        chromium@edge \
+        chromium \
         nss@edge \
         freetype@edge \
         freetype-dev@edge \
