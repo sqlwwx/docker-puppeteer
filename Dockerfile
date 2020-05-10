@@ -16,6 +16,11 @@ RUN echo @edge https://mirrors.aliyun.com/alpine/edge/main >> /etc/apk/repositor
         ttf-freefont@edge \
         wqy-zenhei@edge
 
+RUN adduser -D chrome \
+    && chown -R chrome:chrome /app
+
+USER chrome
+
 # Tell Puppeteer to skip installing Chrome. We'll be using the installed package.
 ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD true
 
